@@ -35,7 +35,7 @@ const Navbar = () => {
             src={toggle ? close : menu} 
             alt='menu'
             className='w-[28px] h-[28px]
-            object-contain'
+            object-contain cursor-pointer'
             onClick={()=> setToggle(prevToggle => !prevToggle)}
             />
             <div
